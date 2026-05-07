@@ -69,11 +69,13 @@ If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(
 
 ​
 ## FILE LIST
-### Orion WSIs (19 channels)
+### CyCIF WSIs
 
 | Patient | Folder name | File name                                                  | File size (GB) |
 | :------ | :---------- | :--------------------------------------------------------- | :------------- |
-| C1      | CRC01       | P37_S29_A24_C59kX_E15@20220106_014304_946511.ome.tiff      | 236.25         |
+| Patient 1      | EPN01       | LSP33564.ome.tiff      | 66.54         |
+| Patient 2      | EPN02       | LSP68872.ome.tiff      | 55.66         |
+| Patient 2      | EPN02       | LSP68882.ome.tiff      | 8.81         |
 ​
 ### markers.csv
 ​
