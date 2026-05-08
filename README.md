@@ -47,7 +47,7 @@ Each folder corresponds to a patient sample (N).
 |N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | AWS     |
 |markers.csv   | list of all markers in ome.tif image                                               | Synapse |
 |unmicst_cellRing.csv   | single-cell feature table, including intensity data for all channels        | Synapse |
-|histoline.csv   | Nodule ROI selected for intensity mapping        | Synapse |
+|histoline_ROI.csv   | X and Y coordinates for histologically annotated nodule regions in the Patient 1 CyCIF image        | Synapse |
 ​
 ​
 ## File List
