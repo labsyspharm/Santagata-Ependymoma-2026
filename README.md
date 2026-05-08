@@ -2,7 +2,7 @@
 
 # Clinical responses to trastuzumab deruxtecan in molecularly defined ependymoma
 
-L Nicolas Gonzalez Castro1, Yi-Chien Wu, Jia-Ren Lin, Maria-Joao Santiago-Ribeiro, Alice Laurenge, Alexandre Carpentier, Shannon Coy, Nancy U. Lin, Karima Mokhtari, Keith L. Ligon, Mehdi Touat, Sandro Santagata
+L Nicolas Gonzalez Castro, Yi-Chien Wu, Jia-Ren Lin, Maria-Joao Santiago-Ribeiro, Alice Laurenge, Alexandre Carpentier, Shannon Coy, Nancy U. Lin, Karima Mokhtari, Keith L. Ligon, Mehdi Touat, Sandro Santagata
 
 <img src="documents/graph.png" style="max-width:500px;width:100%"/>
 
@@ -20,55 +20,22 @@ Some data is available on-line browsing using MINERVA software (Rashid et al., 2
 ---
 ## ACCESS THE DATA
 
-All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). 
-
-The dataset, consist of 47 CRC1 images (2.1 TB) and CRC2-17 images (4.4 TB), is available through Amazon Web Services S3 at the following location: 
+The dataset, consist of 3 images, is available through Amazon Web Services S3 at the following location: 
 ```text
-s3://lin-2021-crc-atlas/data/
+s3://link-TBD/data/
 ```
-The list of S3 Objects in the bucket can be accessed at [https://lin-2021-crc-atlas.s3.amazonaws.com/](https://lin-2021-crc-atlas.s3.amazonaws.com/)
+The list of S3 Objects in the bucket can be accessed at [https://link-TBD.s3.amazonaws.com/](https://link-TBD.s3.amazonaws.com/)
 
-Visit the following Zenodo page for instructions on how to access the primary image data associated with this publication on AWS: [10.5281/zenodo.10223573](10.5281/zenodo.10223573)
+Visit the following Zenodo page for instructions on how to access the primary image data associated with this publication on AWS: [Link to zenodo.TBD](10.5281/zenodo.link-TBD)
 
-*Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the data or have questions.*
+*Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "tissue-atlas-name (TBD)" if you experience issues accessing the data or have questions.*
 
-**See the tables below for an inventory of the dataset, which includes:**  
->  [CRC1 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#crc1-images)  
->  [CRC2-17 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#crc2-17-images)  
->  [Spatial features tables](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#access-spatial-feature-tables-main-cycif-panel-crc1-17)  
->  [Single-cell sequencing data and GeoMX count tables](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#single-cell-sequencing-data--geomx-count-tables)  
+**See the tables below for the publication and an inventory of the dataset, which includes:**  
+>  [Published paper](https://doi.org/MY-PAPER-DOI-URL)  
+>  [Ependymoma images and image metadata](https://github.com/labsyspharm/AWS-link)  
+>  [CyCIF single-cell tables](https://github.com/labsyspharm/AWS-link)  
   
-
 ---- 
-
-​
---------------------
-GENERAL INFORMATION
---------------------
-​
-1. **Publication or Dataset title:**
-Clinical responses to trastuzumab deruxtecan in molecularly defined ependymoma   
-​
-2. **Authors:** 
-L Nicolas Gonzalez Castro, Yi-Chien Wu, Jia-Ren Lin, Maria-Joao Santiago-Ribeiro, Alice Laurenge, Alexandre Carpentier, Shannon Coy, Nancy U. Lin, Karima Mokhtari, Keith L. Ligon, Mehdi Touat, Sandro Santagata 
-​
-3. **Please cite this data as the following:**      
-Gonzalez Castro (2026). Clinical responses to trastuzumab deruxtecan in molecularly defined ependymoma. {journal/biorxv}     
-  
-5. **Relevant links:** <remove links that are not relevant>  
-> * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
-> * Associated GitHub Repository: [MY-REPO](https://github.com/MY-REPO-URL)  
-> * To view an archived record of this repository: [My-ZENODO-DOI](https://zenodo.org/doi/MY-ZENDODO-DOI-URL) 
-> * To view the image data online, visit: [My-ATLAS-PAGE](https://tissue-atlas.org/MY-ATLAS-PAGE-URL)  
-> * <Other important links if applicable>
-​
-5. **Licenses/restrictions placed on the data:** CC-BY [creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
-​
---------------------
-ACCESS THE DATASET 
---------------------
-
-  
 ​
 ## File organization:   
 **Each file follows the following naming convention:**    
@@ -79,51 +46,41 @@ Each folder corresponds to a patient sample (N).
 |--------      | ----------------------------------------------------------------------------------|---------|
 |N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | AWS     |
 |markers.csv   | list of all markers in ome.tif image                                               | Synapse |
-|N.csv         | single-cell feature table, including intensity data for all channels               | Synapse |
+|unmicst_cellRing.csv   | single-cell feature table, including intensity data for all channels        | Synapse |
+|histoline.csv   | Nodule ROI selected for intensity mapping        | Synapse |
 ​
 ​
-## AWS Data Access  
-​
-X, Y, Z data is available for download through AWS. 
-​
-**You will need the following bucket name:**  
-```
-AWS BUCKET NAME  
-```
-​
-*For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
-  
-If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".  
-​
+## File List
 
-​
-## FILE LIST
 ### CyCIF WSIs
 
-| Patient | Folder name | File name                                                  | File size (GB) |
-| :------ | :---------- | :--------------------------------------------------------- | :------------- |
-| Patient 1      | EPN01       | LSP33564.ome.tiff      | 66.54         |
-| Patient 2      | EPN02       | LSP68872.ome.tiff      | 55.66         |
-| Patient 2      | EPN02       | LSP68882.ome.tiff      | 8.81         |
-​
-### markers.csv
-​
-|Patient or Biospecimen ID | File Name   | Synapse ID  | File size|
-|------- | ----------- |------------ |----------|
-|ID | markers.csv | syn12345678 | N.N bytes|
-​
-### N.csv
-​
-|Patient or Biospecimen ID | File Name   | Synapse ID | File size |
-|------- | ------------|------------|-----------|
-|ID | ID.csv |  |  |
-​
+| Patient   | Folder Name | File Name         | File Size (GB) |
+|------------|-------------|-------------------|----------------|
+| Patient 1 | EPN01 | LSP33564.ome.tiff | 66.54 |
+| Patient 2 | EPN02 | LSP68872.ome.tiff | 55.66 |
+| Patient 2 | EPN02 | LSP68882.ome.tiff | 8.81 |
 
-​
-​
- 
---------------------------
-ADDITIONAL NOTES/COMMENTS
---------------------------
-​
-Please let **(Sandro Santagata, ssantagata@bwh.harvard.edu)** know if any errors are found in this data.  
+---
+
+### markers.csv
+
+| Patient or Biospecimen ID | File Name    | Synapse ID | File Size |
+|----------------------------|-------------|-------------|------------|
+| LSP33564 | markers1.csv | syn12345678 | N.N bytes |
+| LSP68872 | markers2.csv | syn12345678 | N.N bytes |
+| LSP68882 | markers2.csv | syn12345678 | N.N bytes |
+
+---
+
+### Nodule ROIs in Patient 1
+
+| Patient or Biospecimen ID | File Name    | Synapse ID | File Size |
+|----------------------------|-------------|-------------|------------|
+| LSP33564 | markers1.csv | syn12345678 | N.N bytes |
+| LSP68872 | markers2.csv | syn12345678 | N.N bytes |
+| LSP68882 | markers2.csv | syn12345678 | N.N bytes |
+
+---
+## FUNDING
+This work was supported by GRANT INFO TBD. 
+<br>
