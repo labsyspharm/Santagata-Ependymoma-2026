@@ -2,7 +2,9 @@
 
 # Clinical responses to trastuzumab deruxtecan in molecularly defined ependymoma
 
-L Nicolas Gonzalez Castro, Yi-Chien Wu, Jia-Ren Lin, Maria-Joao Santiago-Ribeiro, Alice Laurenge, Alexandre Carpentier, Shannon Coy, Nancy U. Lin, Karima Mokhtari, Keith L. Ligon, Mehdi Touat, Sandro Santagata
+L Nicolas Gonzalez Castro*, Yi-Chien Wu*, Jia-Ren Lin, Maria-Joao Santiago-Ribeiro, Alice Laurenge, Alexandre Carpentier, Shannon Coy, Nancy U. Lin, Karima Mokhtari, Keith L. Ligon, Mehdi Touat, Sandro Santagata
+
+\* Co-first authors
 
 <img src="documents/graph.png" style="max-width:500px;width:100%"/>
 
