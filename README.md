@@ -41,12 +41,10 @@ Each folder corresponds to a patient sample (N).
  
 |File Type     | Description                                                                        | Location|
 |--------      | ----------------------------------------------------------------------------------|---------|
-|N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | AWS     |
-|markers.csv   | list of all markers in ome.tif image                                               | Synapse |
-|unmicst_cellRing.csv   | single-cell feature table, including intensity data for all channels        | Synapse |
-|histoline_ROI.csv   | X and Y coordinates for histologically annotated nodule regions in the Patient 1 CyCIF image        | Synapse |
-​
-​
+|N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | Zenodo  |
+|markers.csv   | list of all markers in ome.tif image                                               | Zenodo |
+|unmicst_cellRing.csv   | single-cell feature table, including intensity data for all channels        | Zenodo |
+|histoline_ROI.csv   | X and Y coordinates for histologically annotated nodule regions in the Patient 1 CyCIF image        | Zenodo |
 ## File List
 
 ### CyCIF WSIs
@@ -54,30 +52,25 @@ Each folder corresponds to a patient sample (N).
 | Patient   | Folder Name | File Name         | File Size (GB) |
 |------------|-------------|-------------------|----------------|
 | Patient 1 | EPN01 | LSP33564.ome.tiff | 66.54 |
-| Patient 2 | EPN02 | LSP68872.ome.tiff | 55.66 |
-| Patient 2 | EPN02 | LSP68882.ome.tiff | 8.81 |
+| Patient 2 (2018) | EPN02 | LSP68872.ome.tiff | 55.66 |
+| Patient 2 (2025) | EPN02 | LSP68882.ome.tiff | 8.81 |
 
 ---
 
 ### markers.csv
 
-| Patient or Biospecimen ID | File Name    | Synapse ID | File Size |
-|----------------------------|-------------|-------------|------------|
-| LSP33564 | markers1.csv | syn12345678 | N.N bytes |
-| LSP68872 | markers2.csv | syn12345678 | N.N bytes |
-| LSP68882 | markers2.csv | syn12345678 | N.N bytes |
+| Patient or Biospecimen ID | File Name    | File Size |
+|----------------------------|-------------|------------|
+| LSP33564 | markers1.csv | N.N bytes |
+| LSP68872 | markers2.csv | N.N bytes |
+| LSP68882 | markers2.csv | N.N bytes |
 
 ---
 
 ### Nodule ROIs in Patient 1
 
-| Patient or Biospecimen ID | File Name    | Synapse ID | File Size |
-|----------------------------|-------------|-------------|------------|
-| LSP33564 | markers1.csv | syn12345678 | N.N bytes |
-| LSP68872 | markers2.csv | syn12345678 | N.N bytes |
-| LSP68882 | markers2.csv | syn12345678 | N.N bytes |
-
----
-## FUNDING
-This work was supported by GRANT INFO TBD. 
-<br>
+| Patient or Biospecimen ID | File Name    | File Size |
+|----------------------------|-------------|------------|
+| LSP33564 | markers1.csv | N.N bytes |
+| LSP68872 | markers2.csv | N.N bytes |
+| LSP68882 | markers2.csv | N.N bytes |
