@@ -22,20 +22,15 @@ Some data is available on-line browsing using MINERVA software (Rashid et al., 2
 ---
 ## ACCESS THE DATA
 
-The dataset, consist of 3 images, is available through Amazon Web Services S3 at the following location: 
+The dataset, consist of 3 images, is available through Zenodo at the following location: 
 ```text
-s3://link-TBD/data/
+[Link to zenodo.TBD](10.5281/zenodo.link-TBD)
 ```
-The list of S3 Objects in the bucket can be accessed at [https://link-TBD.s3.amazonaws.com/](https://link-TBD.s3.amazonaws.com/)
 
-Visit the following Zenodo page for instructions on how to access the primary image data associated with this publication on AWS: [Link to zenodo.TBD](10.5281/zenodo.link-TBD)
+*Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "Clinical responses to trastuzumab deruxtecan in molecularly defined ependymoma" if you experience issues accessing the data or have questions.*
 
-*Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "tissue-atlas-name (TBD)" if you experience issues accessing the data or have questions.*
+**Check the [Published paper](https://doi.org/MY-PAPER-DOI-URL)  here**
 
-**See the tables below for the publication and an inventory of the dataset, which includes:**  
->  [Published paper](https://doi.org/MY-PAPER-DOI-URL)  
->  [Ependymoma images and image metadata](https://github.com/labsyspharm/AWS-link)  
->  [CyCIF single-cell tables](https://github.com/labsyspharm/AWS-link)  
   
 ---- 
 ​
