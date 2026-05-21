@@ -13,18 +13,21 @@ L Nicolas Gonzalez Castro*, Yi-Chien Wu*, Jia-Ren Lin, Maria-Joao Santiago-Ribei
 Despite evidence that antibody drug conjugates (ADCs) are active in brain metastases, their role in primary central nervous system (CNS) tumors remains unclear. We report two adults with molecularly defined ependymoma – a MYCN-amplified spinal tumor with intracranial dissemination and a supratentorial ZFTA-RELA-fused tumor with multiple recurrences – who demonstrated radiographic response and/or durable clinical and metabolic stability with trastuzumab deruxtecan (T-DXd). HER2 expression was identified by immunohistochemistry in both tumors, consistent with prior systematic profiling of ADC targets in CNS tumors. Multiplexed imaging showed broad but heterogeneous HER2 expression across tumor states in both cases; in the MYCN-amplified tumor, this occurred alongside EGFR/MAPK-enriched proliferative niches, whereas the ZFTA-RELA tumor showed more diffuse organization without strong coupling of EGFR and proliferation. These findings provide early clinical evidence supporting HER2-directed ADCs in ependymoma and highlight the value of integrated molecular and spatial profiling in interpreting therapeutic response in rare CNS tumors.
 
 ---
-## VIEW IMAGE DATA ONLINE
+## IMAGE DATA RELEASE
 Some data is available on-line browsing using MINERVA software (Rashid et al., 2022), which allows users to pan and zoom through the images without requiring any software installation. 
 
 **To view the Minerva stories, please visit [tissue-atlas.org/atlas-datasets/gonzalez-castro-2026/ependymoma](https://www.cycif.org/data/gpnzalez-casatro-2026/p211-ependymoma/index.html).**  
 
+Images (.ome.tif) in this directory accompany the data release for **Santagata-Ependymoma-2026-paper**. These files contain a subset of channels used/analyzed in the paper. The original image files and selected channel information are documented in the spreadsheet located in this directory.
+
+NOTE: Due to Zenodo's 50 GB maximum upload size, the image pyramids are built with a 4x downsample factor between pyramid levels (compared to the original 2x). The full-resolution base layer is at 0.65 um/pixel. Images are compatible with QuPath and OMERO, but are not currently compatible with Minerva Author.
 
 ---
 ## ACCESS THE DATA
 
 The dataset, consist of 3 images, is available through Zenodo at the following location: 
 ```text
-[Link to zenodo.TBD](10.5281/zenodo.link-TBD)
+https://doi.org/10.5281/zenodo.20212612
 ```
 
 *Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "Clinical responses to trastuzumab deruxtecan in molecularly defined ependymoma" if you experience issues accessing the data or have questions.*
