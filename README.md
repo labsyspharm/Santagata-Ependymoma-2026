@@ -60,13 +60,13 @@ Each folder corresponds to a patient sample (N).
 
 ---
 
-### FEATURE TABLE DATA 
+### SINGLE CELL FEATURE TABLE
 
-| Patient or Biospecimen ID | File Name    | File Size (GB)|
+| Patient or Biospecimen ID | File Name    | File Size (KB)|
 |----------------------------|-------------|------------|
-| LSP33564 | LSP33564--unmicst_cellRing.csv | 1.68 |
-| LSP68872 | LSP68872--unmicst_cellRing.csv | 0.38 |
-| LSP68882 | LSP68882--unmicst_cellRing.csv | 0.073 |
+| LSP33564 | CyCIF Single Cell Quantification_MYCN.csv | 14,168 |
+| LSP68872 | CyCIF Single Cell Quantification_ZFTA2018.csv | 13,645 |
+| LSP68882 | CyCIF Single Cell Quantification_ZFTA2025.csv | 13,510 |
 
 ---
 
