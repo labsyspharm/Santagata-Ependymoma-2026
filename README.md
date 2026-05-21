@@ -37,7 +37,7 @@ https://doi.org/10.5281/zenodo.20212612
   
 ---- 
 ​
-## File organization:   
+## File ORGANIZATION:   
 **Each file follows the following naming convention:**    
 ​
 Each folder corresponds to a patient sample (N).  
@@ -45,8 +45,8 @@ Each folder corresponds to a patient sample (N).
 |File Type     | Description                                                                        | Location|
 |--------      | ----------------------------------------------------------------------------------|---------|
 |N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | Zenodo  |
-|markers.csv   | list of all markers in ome.tif image                                               | Zenodo |
-|unmicst_cellRing.csv   | single-cell feature table, including intensity data for all channels        | Zenodo |
+|markers.csv   | list of selected markers in shared ome.tif image                                               | Zenodo |
+|unmicst_cellRing.csv   | single-cell feature table, including intensity data for selected channels of shared ome.tif image        | Zenodo |
 |histoline_ROI.csv   | X and Y coordinates for histologically annotated nodule regions in the Patient 1 CyCIF image        | Zenodo |
 ## File List
 
@@ -60,7 +60,17 @@ Each folder corresponds to a patient sample (N).
 
 ---
 
-### markers.csv
+### FEATURE TABLE DATA 
+
+| Patient or Biospecimen ID | File Name    | File Size (GB)|
+|----------------------------|-------------|------------|
+| LSP33564 | LSP33564--unmicst_cellRing.csv | 1.68 |
+| LSP68872 | LSP68872--unmicst_cellRing.csv | 0.38 |
+| LSP68882 | LSP68882--unmicst_cellRing.csv | 0.073 |
+
+---
+
+### MARKER.csv
 
 | Patient or Biospecimen ID | File Name    | File Size (KB)|
 |----------------------------|-------------|------------|
@@ -70,7 +80,7 @@ Each folder corresponds to a patient sample (N).
 
 ---
 
-### Nodule ROIs in Patient 1
+### NODULES ROIs in PATIENT 1
 
 |     File Name     | File Size (KB) |
 |-------------|------------|
