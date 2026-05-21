@@ -46,7 +46,7 @@ Each folder corresponds to a patient sample (N).
 |--------      | ----------------------------------------------------------------------------------|---------|
 |N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | Zenodo  |
 |markers.csv   | list of selected markers in shared ome.tif image                                               | Zenodo |
-|unmicst_cellRing.csv   | single-cell feature table, including intensity data for selected channels of shared ome.tif image        | Zenodo |
+|unmicst_cellRing.csv   | single-cell feature table, including intensity data for all channels        | Zenodo |
 |histoline_ROI.csv   | X and Y coordinates for histologically annotated nodule regions in the Patient 1 CyCIF image        | Zenodo |
 ## File List
 
