@@ -62,18 +62,21 @@ Each folder corresponds to a patient sample (N).
 
 ### markers.csv
 
-| Patient or Biospecimen ID | File Name    | File Size |
+| Patient or Biospecimen ID | File Name    | File Size (KB)|
 |----------------------------|-------------|------------|
-| LSP33564 | markers1.csv | N.N bytes |
-| LSP68872 | markers2.csv | N.N bytes |
-| LSP68882 | markers2.csv | N.N bytes |
+| LSP33564 | marker 1.csv | 10.0 |
+| LSP68872 | marker 2.csv | 10.0 |
+| LSP68882 | marker 3.csv | 10.0 |
 
 ---
 
 ### Nodule ROIs in Patient 1
 
-| Patient or Biospecimen ID | File Name    | File Size |
-|----------------------------|-------------|------------|
-| LSP33564 | markers1.csv | N.N bytes |
-| LSP68872 | markers2.csv | N.N bytes |
-| LSP68882 | markers2.csv | N.N bytes |
+|     File Name     | File Size (KB) |
+|-------------|------------|
+| LSP33564.ome.tif-histolines_1.csv | 1.0 |
+| LSP33564.ome.tif-histolines_2.csv | 1.0 |
+| LSP33564.ome.tif-histolines_3.csv | 1.0 |
+| histoline1_cells_along_line.csv | 194.0 |
+| histoline2_cells_along_line.csv | 200.0 |
+| histoline3_cells_along_line | 224.0 |
